@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class NewPageComponent {
 
+  public pusblishers = [
+
+    {id: 'DC Comics', desc: 'DC - Comics'},
+    {id: 'Marvel Comics', desc: 'Marvel - Comics'}
+  ]
+
 }
